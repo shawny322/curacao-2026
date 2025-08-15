@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Curaçao Birthday Trip — Mar 26–30, 2026</title>
+<style>
+:root{--accent:#ff4da6;--teal:#40e0d0;--sun:#ffd54a;--bg:#fff8fb;--muted:#666;}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;background:var(--bg);color:#111;}
+.header{position:relative;text-align:center;color:white;}
+.header .hero{width:100%;height:42vw;max-height:420px;object-fit:cover;display:block;}
+.header .title{position:absolute;left:0;right:0;top:10%;text-align:center;padding:8px}
+.header h1{margin:0;font-size:26px;text-shadow:0 6px 14px rgba(0,0,0,0.25);}
+.header p{margin:6px 0 0;font-size:14px;opacity:0.95}
+.container{max-width:920px;margin:0 auto;padding:14px;}
+.card{background:white;border-radius:14px;padding:12px;margin:12px 0;box-shadow:0 8px 24px rgba(15,15,15,0.06);}
+.card img{width:100%;height:auto;border-radius:10px;display:block;}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;}
+.badge{background:var(--accent);color:white;padding:6px 10px;border-radius:999px;font-weight:700;font-size:13px;}
+.btn{display:inline-block;background:linear-gradient(90deg,var(--accent),#ff8fb2);color:white;padding:10px 12px;border-radius:10px;text-decoration:none;font-weight:700;margin-top:8px;}
+.small{font-size:13px;color:var(--muted);}
+.countdown{display:flex;gap:8px;justify-content:center;margin-top:8px;flex-wrap:wrap;}
+.countdown div{background:white;padding:12px;border-radius:10px;min-width:66px;text-align:center;box-shadow:0 6px 12px rgba(0,0,0,0.06);}
+.footer{text-align:center;padding:14px;font-size:13px;color:var(--muted);}
+.message{background:white;border-left:6px solid var(--accent);border-radius:12px;padding:12px 14px;box-shadow:0 8px 24px rgba(15,15,15,0.06);}
+.message strong{color:var(--accent)}
+ul.packing{columns:1;gap:20px;margin:8px 0 0 18px}
+@media(min-width:680px){ul.packing{columns:2} .header .title h1{font-size:34px}}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <img class="hero" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAwJyBoZWlnaHQ9JzgwMCcgdmlld0JveD0nMCAwIDE2MDAgODAwJz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0nZycgeDE9JzAnIHkxPScwJyB4Mj0nMScgeTI9JzEnPgogICAgICA8c3RvcCBvZmZzZXQ9JzAnIHN0b3AtY29sb3I9JyNmZjhmYjInLz4KICAgICAgPHN0b3Agb2Zmc2V0PScxJyBzdG9wLWNvbG9yPScjNDBlMGQwJy8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJyBmaWxsPSd1cmwoI2cpJy8+CiAgPGcgZm9udC1mYW1pbHk9J1NlZ29lIFVJLCBSb2JvdG8sIEFyaWFsJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9JzcwMCc+CiAgICA8dGV4dCB4PSc1MCUnIHk9JzQ1JScgZm9udC1zaXplPSc2NCcgdGV4dC1hbmNob3I9J21pZGRsZSc+Q3VyYcOnw6kg4oCiIEJpcnRoZGF5IFRyaXA8L3RleHQ+CiAgICA8dGV4dCB4PSc1MCUnIHk9JzYwJScgZm9udC1zaXplPSczMicgdGV4dC1hbmNob3I9J21pZGRsZSc+TWFyY2ggMjYtMzAsIDIwMjYgwrAgQnJpZ2h0IOKAmCBGdW4gwrAgUGFydHk8L3RleHQ+CiAgPC9nPgo8L3N2Zz4=" alt="Curaçao Birthday Trip">
+  <div class="title">
+    <h1>Welcome to April’s Birthday Bash in Curaçao!</h1>
+    <p>March 26–30, 2026 · Bright • Fun • Party</p>
+    <div class="countdown" id="countdown">
+      <div><div id="days">--</div><div class="small">Days</div></div>
+      <div><div id="hours">--</div><div class="small">Hours</div></div>
+      <div><div id="minutes">--</div><div class="small">Minutes</div></div>
+      <div><div id="seconds">--</div><div class="small">Seconds</div></div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="card message">
+    <p><strong>Birthday Message:</strong> Pack your glitter and your sunscreen—this is April’s birthday takeover of Curaçao! Expect beach days, dance floors, all-white glam, and unforgettable toasts. 🥂🎉</p>
+  </section>
+
+  <section class="card">
+    <div class="row"><div class="badge">Thu · Mar 26</div><div style="flex:1"><strong>Arrival & Island Party</strong></div></div>
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMjAwJyBoZWlnaHQ9JzgwMCcgdmlld0JveD0nMCAwIDEyMDAgODAwJz4KICA8cmVjdCB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJyBmaWxsPScjMGYxMDIxJy8+CiAgPGRlZnM+CiAgICA8cmFkaWFsR3JhZGllbnQgaWQ9J3AnIGN4PSc1MCUnIGN5PSczMCUnIHI9JzYwJSc+CiAgICAgIDxzdG9wIG9mZnNldD0nMCcgc3RvcC1jb2xvcj0nI2ZmN2JhYycvPgogICAgICA8c3RvcCBvZmZzZXQ9JzEnIHN0b3AtY29sb3I9JyNmZmQ1NGEnLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnIGZpbGw9J3VybCgjcCknIG9wYWNpdHk9JzAuOScvPgogIDxnIGZpbGw9J3doaXRlJyBmb250LWZhbWlseT0nU2Vnb2UgVUksIFJvYm90bywgQXJpYWwnIGZvbnQtd2VpZ2h0PSc3MDAnPgogICAgPHRleHQgeD0nNjAnIHk9JzEyMCcgZm9udC1zaXplPSc0Mic+QXJyaXZhbCBOaWdodCDCuyBJc2xhbmQgUGFydHk8L3RleHQ+CiAgICA8dGV4dCB4PSc2MCcgeT0nMTcwJyBmb250LXNpemU9JzIwJyBvcGFjaXR5PScwLjk1Jz5EaXZlcnNlIGNyb3dkIOKAmCBTdHJpbmcgbGlnaHRzIOKAmCBCZWFjaCBiZWF0czwvdGV4dD4KICA8L2c+Cjwvc3ZnPg==" alt="Arrival Night Party (diverse crowd)">
+    <p class="small">Touch down, check in, and hit an island party with a diverse crowd under string lights. Vibes: welcome cocktails, beach beats, and birthday cheers for April!</p>
+  </section>
+
+  <section class="card">
+    <div class="row"><div class="badge">Fri · Mar 27</div><div style="flex:1"><strong>Beach Day & All-White Night</strong></div></div>
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMjAwJyBoZWlnaHQ9JzgwMCcgdmlld0JveD0nMCAwIDEyMDAgODAwJz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0nYicgeDE9JzAnIHkxPScwJyB4Mj0nMCcgeTI9JzEnPgogICAgICA8c3RvcCBvZmZzZXQ9JzAnIHN0b3AtY29sb3I9JyM2NmYnLz4KICAgICAgPHN0b3Agb2Zmc2V0PScxJyBzdG9wLWNvbG9yPScjN2VlJy8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJyBmaWxsPScjZmZmJy8+CiAgPHJlY3QgeT0nMCcgd2lkdGg9JzEwMCUnIGhlaWdodD0nNTUlJyBmaWxsPSd1cmwoI2IpJy8+CiAgPHJlY3QgeT0nNTUlIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzQ1JScgZmlsbD0nI2ZmZDk4YScvPgogIDxnIGZpbGw9JyNmZmYnIGZvbnQtZmFtaWx5PSdTZWdvZSBVSSwgUm9ib3RvLCBBcmlhbCcgbmFtZS1zcGFjZT0ncHJlJyBmb250LXdlaWdodD0nNzAwJz4KICAgIDx0ZXh0IHg9JzYwJyB5PScxMjAnIGZvbnQtc2l6ZT0nNDgnPkJlYWNoIERheSDigIYgVHVycXVvaXNlIFZpYmVzPC90ZXh0PgogIDwvZz4KPC9zdmc+" alt="Beach Day">
+    <p class="small">Day: turquoise water, sun, and photos. Night: dress in white for the signature birthday party—glam fits, golden-hour pics, and dancing.</p>
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMjAwJyBoZWlnaHQ9JzgwMCcgdmlld0JveD0nMCAwIDEyMDAgODAwJz4KICA8cmVjdCB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJyBmaWxsPScjMWIxYjJmJy8+CiAgPGRlZnM+CiAgICA8cmFkaWFsR3JhZGllbnQgaWQ9J3cnIGN4PSc1MCUnIGN5PSc0MCUnIHI9JzYwJSc+CiAgICAgIDxzdG9wIG9mZnNldD0nMCcgc3RvcC1jb2xvcj0nI2ZmZmZmZicvPgogICAgICA8c3RvcCBvZmZzZXQ9JzEnIHN0b3AtY29sb3I9JyNlNGU0ZTQnLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSc4MCUnIGhlaWdodD0nNjAlJyB4PScxMCUnIHk9JzIwJScgcng9JzI0JyBmaWxsPSd1cmwoI3cpJyBvcGFjaXR5PScwLjknLz4KICA8ZyBmaWxsPScjZmY0ZGE2JyBmb250LWZhbWlseT0nU2Vnb2UgVUksIFJvYm90bywgQXJpYWwnIGZvbnQtd2VpZ2h0PSc3MDAnPgogICAgPHRleHQgeD0nNTAlJyB5PSc1MiUnIGZvbnQtc2l6ZT0nNDQnIHRleHQtYW5jaG9yPSdtaWRkbGUnPkFsbC1XaGl0ZSBOaWdodDwvdGV4dD4KICA8L2c+Cjwvc3ZnPg==" alt="All-White Night">
+  </section>
+
+  <section class="card">
+    <div class="row"><div class="badge">Sat · Mar 28</div><div style="flex:1"><strong>Dinner Out & Hottest Nightlife</strong></div></div>
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMjAwJyBoZWlnaHQ9JzgwMCcgdmlld0JveD0nMCAwIDEyMDAgODAwJz4KICA8cmVjdCB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJyBmaWxsPScjMGYxNzJhJy8+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9J24nIHgxPScwJyB5MT0nMCcgeDI9JzEnIHkyPScxJz4KICAgICAgPHN0b3Agb2Zmc2V0PScwJyBzdG9wLWNvbG9yPScjN2IyZmY3Jy8+CiAgICAgIDxzdG9wIG9mZnNldD0nMScgc3RvcC1jb2xvcj0nI2ZmNGQ2ZCcvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0ndXJsKCMnKTsKICA8ZyBmaWxsPSd3aGl0ZScgZm9udC1mYW1pbHk9J1NlZ29lIFVJLCBSb2JvdG8sIEFyaWFsJyBmb250LXdlaWdodD0nNzAwJz4KICAgIDx0ZXh0IHg9JzYwJyB5PScxMjAnIGZvbnQtc2l6ZT0nNDgnPk5pZ2h0bGlmZSBDcmF3bDwvdGV4dD4KICAgIDx0ZXh0IHg9JzYwJyB5PScxNzAnIGZvbnQtc2l6ZT0nMjAnIG9wYWNpdHk9JzAuOTUnPkRhbmNlIOKAmCBDb2NrdGFpbHMg4oCYY2x1YnM8L3RleHQ+CiAgPC9nPgo8L3N2Zz4=" alt="Nightlife Crawl">
+    <p class="small">Sleep in, wander colorful streets, then dinner out before the hottest clubs and bars. It’s a birthday—own the dance floor.</p>
+  </section>
+
+  <section class="card">
+    <div class="row"><div class="badge">Sun · Mar 29</div><div style="flex:1"><strong>Beach Chill & Sunset Toast</strong></div></div>
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMjAwJyBoZWlnaHQ9JzgwMCcgdmlld0JveD0nMCAwIDEyMDAgODAwJz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0nYicgeDE9JzAnIHkxPScwJyB4Mj0nMCcgeTI9JzEnPgogICAgICA8c3RvcCBvZmZzZXQ9JzAnIHN0b3AtY29sb3I9JyM2NmYnLz4KICAgICAgPHN0b3Agb2Zmc2V0PScxJyBzdG9wLWNvbG9yPScjN2VlJy8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJyBmaWxsPScjZmZmJy8+CiAgPHJlY3QgeT0nMCcgd2lkdGg9JzEwMCUnIGhlaWdodD0nNTUlJyBmaWxsPSd1cmwoI2IpJy8+CiAgPHJlY3QgeT0nNTUlIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzQ1JScgZmlsbD0nI2ZmZDk4YScvPgogIDxnIGZpbGw9JyNmZmYnIGZvbnQtZmFtaWx5PSdTZWdvZSBVSSwgUm9ib3RvLCBBcmlhbCcgbmFtZS1zcGFjZT0ncHJlJyBmb250LXdlaWdodD0nNzAwJz4KICAgIDx0ZXh0IHg9JzYwJyB5PScxMjAnIGZvbnQtc2l6ZT0nNDgnPkJlYWNoIENoaWxsIOKAmSBTdW5zZXQgVG9hc3Q8L3RleHQ+CiAgPC9nPgo8L3N2Zz4=" alt="Beach Chill">
+    <p class="small">Slow morning at the beach or spa, then sunset sips and a celebratory toast to April’s big weekend.</p>
+  </section>
+
+  <section class="card">
+    <div class="row"><div class="badge">Mon · Mar 30</div><div style="flex:1"><strong>Farewell Brunch</strong></div></div>
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMjAwJyBoZWlnaHQ9JzgwMCcgdmlld0JveD0nMCAwIDEyMDAgODAwJz4KICA8ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2JyJyB4MT0nMCcgeTE9JzAnIHgyPScwJyB5Mj0nMSc+PHN0b3Agb2Zmc2V0PScwJyBzdG9wLWNvbG9yPScjZmZmJy8+PHN0b3Agb2Zmc2V0PScxJyBzdG9wLWNvbG9yPScjZmZlN2Q2Jy8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+CiAgPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0ndXJsKCNicicpJz4KICA8ZyBmaWxsPScjZmY2ZjYxJyBmb250LWZhbWlseT0nU2Vnb2UgVUksIFJvYm90bywgQXJpYWwnIGZvbnQtd2VpZ2h0PSc3MDAnPgogICAgPHRleHQgeD0nNjAnIHk9JzEyMCcgZm9udC1zaXplPSc0NCc+RmFyZXdlbGwgQnJ1bmNoIOKAmSBDaGVlcnMhPC90ZXh0PgogICAgPHRleHQgeD0nNjAnIHk9JzE3MCcgZm9udC1zaXplPScxOCcgb3BhY2l0eT0nMC45Jz5PdXRkb29yIGdyb3VwIGJydW5jaCB2aWJlczwvdGV4dD4KICA8L2c+Cjwvc3ZnPg==" alt="Farewell Brunch (outdoor group vibes)">
+    <p class="small">One last round of mimosas, hugs, and photos before airport rides. Until the next birthday escape!</p>
+  </section>
+
+  <section class="card">
+    <h3 style="margin:6px 0 8px">What to Pack</h3>
+    <p class="small"><strong>Beach Essentials (All):</strong> Swimwear, cover-up/rash guard, reef-safe sunscreen, sunglasses, hat, sandals/water shoes, beach tote, quick-dry towel.</p>
+    <div class="row" style="align-items:flex-start">
+      <div style="flex:1;">
+        <h4 style="margin:6px 0">For Women</h4>
+        <ul class="packing">
+          <li>2–3 swimsuits + cover-up</li>
+          <li>Flowy dresses / skirts</li>
+          <li>Cute day outfits for photos</li>
+          <li>Heels or wedges for night</li>
+          <li>Statement jewelry + clutch</li>
+          <li><strong>All-White Night:</strong> White dress/fit + neutral shoes</li>
+          <li>Light sweater for breezy nights</li>
+          <li>Makeup setting spray + mini perfume</li>
+        </ul>
+      </div>
+      <div style="flex:1;">
+        <h4 style="margin:6px 0">For Men</h4>
+        <ul class="packing">
+          <li>2–3 swim trunks + rash guard</li>
+          <li>Linen/cotton shirts (short-sleeve)</li>
+          <li>Chino shorts + breathable tees</li>
+          <li>Loafers or clean sneakers for night</li>
+          <li>Watch + sunglasses (polarized)</li>
+          <li><strong>All-White Night:</strong> White button-up + white/neutral pants & shoes</li>
+          <li>Light jacket for evening breeze</li>
+          <li>Grooming kit + deodorant wipes</li>
+        </ul>
+      </div>
+    </div>
+    <p class="small"><strong>Extras (All):</strong> Portable charger, waterproof phone pouch, reusable water bottle, travel-size toiletries, basic meds, copies of IDs.</p>
+  </section>
+
+  <div style="text-align:center;margin:18px 0;">
+    <a class="btn" href="#download" onclick="downloadHTML()">Download this page (single-file HTML)</a>
+  </div>
+
+  <footer class="footer card">
+    Made with ☀️ for April’s Curaçao Birthday Trip — Mar 26–30, 2026
+  </footer>
+</main>
+
+<script>
+// Countdown to Mar 26, 2026 12:00 PM America/New_York (Eastern Daylight Time is -04:00)
+const target = new Date('2026-03-26T12:00:00-04:00').getTime();
+
+function updateCountdown() {
+  const now = Date.now();
+  const diff = target - now;
+  if (diff <= 0) {
+    document.getElementById('countdown').innerHTML = '<div style="padding:12px;background:white;border-radius:10px">It’s party time — happy birthday, April! 🎉</div>';
+    return;
+  }
+  const days = Math.floor(diff / (1000*60*60*24));
+  const hours = Math.floor((diff % (1000*60*60*24)) / (1000*60*60));
+  const minutes = Math.floor((diff % (1000*60*60)) / (1000*60));
+  const seconds = Math.floor((diff % (1000*60)) / 1000);
+  document.getElementById('days').textContent = days;
+  document.getElementById('hours').textContent = hours;
+  document.getElementById('minutes').textContent = minutes;
+  document.getElementById('seconds').textContent = seconds;
+}
+
+setInterval(updateCountdown, 1000);
+updateCountdown();
+
+// Download function to save the page as an HTML file
+function downloadHTML() {
+  const doctype = '<!doctype html>\n';
+  const html = document.documentElement.outerHTML;
+  const blob = new Blob([doctype + html], {type: 'text/html'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'index.html';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+</script>
+
+</body>
+</html>
